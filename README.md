@@ -13,4 +13,4 @@ Media queries
 
 ## Link to my github page
 
-https://github.com/aokimako/se_project_aroundtheus
+https://aokimako.github.io/se_project_aroundtheus/

@@ -8,65 +8,6 @@
   margin: 0;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-}
-
-.card__image {
-  width: 282px;
-  height: 282px;
-  border-radius: 10px 10px 0px 0px;
-  background: lightgray 50% / cover no-repeat;
-}
-
-.card__description {
-  display: flex;
-  background-color: white;
-  color: black;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 20px;
-  padding-right: 20px;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 0px 0px 10px 10px;
-}
-
-.card__title {
-  color: #000;
-  font-family: Inter, Ariel, sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  margin: 0;
-}
-
-.card__descripton {
-  background-color: transparent url(../images/like-inactive.svg) center
-    no-repeat;
-  width: 21px;
-  height: 18px;
-}
-
-.card__like-button {
-  background: transparent url(../images/like-inactive.svg) center no-repeat;
-  width: 21px;
-  height: 18px;
-  margin-left: auto;
-  border: none;
-  padding: 0;
-}
-
-.card__like-button:hover {
-  fill: #000;
-  opacity: 0.5;
-}
-
 /* Breakpoint 595px - single column */
 @media screen and (max-width: 595px) {
   .cards {
