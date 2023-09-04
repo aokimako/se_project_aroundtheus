@@ -1,0 +1,33 @@
+.page {
+  background-color: black;
+  color: white;
+}
+
+.page__content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* min-width: 68.75%; */
+  padding: 0 10px;
+}
+/* added 10px padding to avoid the elements touching the side. 
+I need more explanation with this above */
+
+/* .page__content {
+    margin-left: 15.625%;
+    margin-right: 15.625%;
+  } - can i use % for margin? */
+
+.page__section {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Breakpoint 595px - single column */
+@media screen and (max-width: 595px) {
+  .page__content {
+    padding: 0 0;
+  }
+}
