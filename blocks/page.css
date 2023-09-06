@@ -25,7 +25,7 @@ I need more explanation with this above */
   margin: 0 auto;
 }
 
-/* Drop padding after it becomes single column */
+/* Drop padding after two columns become single column */
 @media screen and (max-width: 480px) {
   .page__content {
     padding: 0 0;

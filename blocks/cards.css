@@ -8,8 +8,8 @@
   margin: 0;
 }
 
-/* Breakpoint 595px - single column */
-@media screen and (max-width: 595px) {
+/* mobile - single column */
+@media screen and (max-width: 600px) {
   .cards {
     margin: 0;
   }
