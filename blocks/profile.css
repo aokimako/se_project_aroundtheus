@@ -114,11 +114,13 @@
   }
 
   .profile__info {
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     justify-items: center;
     max-width: 282px;
     grid-template-columns: minmax(auto, 196px) auto;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .profile__title {
